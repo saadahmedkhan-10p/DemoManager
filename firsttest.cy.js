@@ -32,6 +32,7 @@ describe('User Authentication Tests', () => {
    // const username, pwd;
     cy.get('#username').type(username);
     cy.get('#password').type(password);
+    cy.get('#password').type(password);
     cy.get('#login-btn').click();
 
     // Missing assertion to verify failure (Issue)
