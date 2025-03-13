@@ -34,6 +34,7 @@ describe('User Authentication Tests', () => {
     cy.get('#password').type(password);
     cy.get('#password').type(password);
     cy.get('#login-btn').click();
+    cy.get('#login-btn').click();
 
     // Missing assertion to verify failure (Issue)
     cy.get('#error-msg'); // Issue: No assertion on the error message's visibility (Issue)
